@@ -1,0 +1,88 @@
+:root {
+    --clr-dark: #070a12;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+    --clr-lightRose: #fb7185;
+    --clr-green: #4ade80;
+    --clr-sky: #38bdf8;
+    --clr-pink: #f472b6;
+    --clr-violet: #a78bfa;
+    --clr-yellow: #facc15;
+  }
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(4,100px);
+    grid-gap: 1em;
+    /* position: relative; */
+}
+
+.grid-item{
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+body{
+ overflow-x: hidden;
+ overflow-y: hidden;
+}
+.grid-item-1 {
+    background-color: var(--clr-lightRose);
+    position: relative;
+    top: -50px;
+    right: -50px;
+    z-index: -1;
+  }
+  
+  .grid-item-2 {
+    background-color: var(--clr-sky);
+  }
+  
+  .grid-item-3 {
+    background-color: var(--clr-yellow);
+  }
+  
+  .grid-item-4 {
+    background-color: var(--clr-green);
+  }
+  
+  .grid-item-5 {
+    background-color: var(--clr-violet);
+  }
+  
+  .grid-item-6 {
+    background-color: var(--clr-pink);
+  }
+  
+  .grid-item-7 {
+    background-color: var(--clr-lightRose);
+  }
+  
+  .grid-item-8 {
+    background-color: var(--clr-sky);
+  }
+  
+  .grid-item-9 {
+    background-color: var(--clr-green);
+  }
+  
+  .grid-item-10 {
+    background-color: var(--clr-yellow);
+  }
+  
+  .grid-item-11 {
+    background-color: var(--clr-violet);
+  }
+  
+  .grid-item-12 {
+    background-color: var(--clr-pink);
+  }
+

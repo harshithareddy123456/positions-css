@@ -1,0 +1,9 @@
+elements with position absolute are removed from the document
+position is static as default value
+make parent relative and child absolute to make alignment wrt parent
+static items will not have access to top,right,bottom,left
+use relative for normal flow of documents(only when position relative is given with out giving anything
+to parent then it will position according to itself)
+fixed will act similar to absolute
+fixed will stay intact with scroll
+sticky will be similar to fixed but will scroll with us until the end of the document
